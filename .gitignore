@@ -12,12 +12,14 @@ env/
 
 # Environment variables
 .env
+!.env.example
 
 # Node
 node_modules/
 
 # VS Code
 .vscode/
+.idea/
 
 # Logs
 *.log
@@ -29,3 +31,13 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Alembic 
+alembic/__pycache__/
+
+# Docker volumes 
+pgdata/
+
+# Playwright
+test-results/
+playwright-report/
